@@ -25,7 +25,7 @@ const header = () => {
       <Link href="/">
         <div className={style.logoContainer}>
           <Image src={openseaLogo} height={40} width={40} />
-          <div className={style.logoText}>BigOcean</div>
+          <div className={style.logoText}>Cryptoverse</div>
         </div>
       </Link>
       <div className={style.searchBar}>
@@ -39,12 +39,12 @@ const header = () => {
         <Link href="/collections/0xaf7Fc0d09040767e482A4082d3d2600106E8f6A6">
           <div className={style.headerItem}> Collections </div>
         </Link>
-        <div className={style.headerItem}> Stats </div>
+        {/* <div className={style.headerItem}> Stats </div>
         <div className={style.headerItem}> Resources </div>
         <div className={style.headerItem}> Create </div>
         <div className={style.headerIcon}>
           <CgProfile />
-        </div>
+        </div> */}
         <div className={style.headerIcon}>
           <MdOutlineAccountBalanceWallet />
         </div>
@@ -53,4 +53,4 @@ const header = () => {
   )
 }
 
-export default header
+export default header;
